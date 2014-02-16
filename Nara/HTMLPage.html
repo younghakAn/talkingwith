@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTML TEXT Basic Page</title>
+</head>
+<body>
+	<a href="#a">basic</a>
+    <a href="#b">link</a>
+    <a href="#c">list tag</a>
+    <a href="#d">table tag</a>
+    <hr />
+    
+	<h1 id="a">Alpha</h1>
+    <h2>dolor sit amet</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>			
+    <br />
+    <h1 id="b">Beta</h1>
+    <p>Nam cmmodo mi a lorem songue id rutrum leo venenatis.</p>
+	<a href = "http://www.naver.com">Naver</a>
+	<hr>
+    
+    <h1 id="c">ol, ul, li tag</h1>
+    <ul> 
+    	<li>HTML 5
+        <ol>
+        	<li>Multimedia Tag</li>
+            <li>Connectivity</li>
+            <li>Device Access</li>
+        </ol>
+        </li>
+        <li>CSS 3</li>
+        <ul>
+        	<li>Animation</li>
+            <li>3D Transform</li>
+        </ul>
+	</ul>
+    <br>
+    
+    <h1>Definition list</h1>
+    <dl>
+    	<dt>HTML 5</dt>
+        <dd>Multimedia Tag</dd>
+        <dd>Connectivity</dd>
+        <dd>Device Access</dd>
+        
+        <dt>CSS 3</dt>
+        <dd>Animation</dd>
+        <dd>3D Transform</dd>
+    </dl>
+    <hr>
+    
+    <h1 id="d">Table tag</h1>
+    <table border="1">
+    	<caption>Table Background</caption>
+        <colgroup>
+            <col span="2" style="background:red"/>
+            <col style="background:blue"/>
+        </colgroup>
+        <thead style="background:green">
+    	<tr>
+        	<th>Header 1</th>
+            <th>Header 2</th>
+            <th>Header 3</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+        	<td>Data 1</td>
+            <td>Data 2</td>
+            <td>Data 3</td>
+        </tr>
+        <tr>
+        	<td>Data 4</td>
+            <td>Data 5</td>
+            <td>Data 6</td>
+        </tr>
+        <tr>
+        	<td>Data 7</td>
+            <td>Data 8</td>
+            <td>Data 9</td>
+        </tr>
+        </tbody>
+        <tfoot style="background:yellow">
+        <tr>
+        	<td>Data 4</td>
+            <td>Data 5</td>
+            <td>Data 6</td>
+        </tr>
+        </tfoot>
+    </table>
+    <br>
+    
+    <table border="1">
+    	<caption>Table Size</caption>
+    	<tr>
+        	<th colspan="3">Table Data</th>
+            <th rowspan="3">Table Data</th>
+        </tr>
+        <tr>
+        	<td>Table Data</td>
+            <td rowspan="2">Table Data</td>
+            <td>Table Data</td>
+        </tr>
+        <tr>
+        	<td>Table Data</td>
+            <td>Table Data</td>
+        </tr>
+    </table>
+    <br><hr>
+    
+    <h1>Image Tag</h1>
+    <img src="Tulips.jpg" alt="It's Tulips!" width="300" />
+    <img src="Nothing" alt="Not exist the picture" width="300" />
+    <br>
+    <img src="http://placehold.it/300x200" />
+    <img src="http://dummyimage.com/300x200" />
+    <br><hr>
+    
+    <h1>Audio & Video Tag</h1>
+    <audio controls="controls">
+    	<source src="Kalimba.mp3" type="audio/mp3" />
+        <source src="Kalimba.ogg" type="audio/ogg" />
+    </audio>
+    <br>
+   
+    <video poster="http://placehold.it/640x360"
+    	   width="640" height="360" controls>
+    	<source src="Wildlife.mp4" type="video/mp4" />
+        <source src="Wildlife.mebm" type="video/webm" />
+    </video>
+    <br><hr>
+    
+    <h1>Form Input Tag</h1>
+	<form method="get">
+    	<label for="name">click here and enter the title</label>
+   	  <input id="name" type="text" /><br>
+        <input type="button" /><br>
+        <input type="checkbox" /><br>
+        <input type="file" /><br>
+    	<input type="hidden" /><br>
+        <input type="image" /><br>
+        <input type="password" /><br>
+        
+        <label for="autocheck">click here if you want check</label>
+      <input id="autocheck" type="radio" /><br>
+        <input type="reset" /><br>
+        <input type="submit" />
+    </form>
+    <br><hr>
+    
+    <h1>TextArea Tag</h1>
+    <form>
+    	<textarea>Hello World</textarea>
+    </form>
+    <br><hr>
+    
+    <h1>Select Tag</h1>
+<select>
+    	<option>apple</option>
+        <option>orange</option>
+        <option>berry</option>
+        <option>kiwi</option>
+    </select>
+    
+    <select>
+    	<optgroup label="HTML 5">
+    		<option>Multimedia Tag</option>
+        	<option>Connectivity</option>
+        	<option>device Access</option>
+        </optgroup>
+        <optgroup label="CSS 3">
+	        <option>Animation</option>
+            <option>3D Transform</option>
+        </optgroup>
+    </select>
+    <br><hr>
+    
+    <h1>Fieldset & legend Tag</h1>
+    <form>
+    	<fieldset>
+        	<legend>input data</legend>
+            <table>
+            	<tr>
+                	<td><label for="name">name</label></td>
+                    <td><input id="name" type="text" /></td>
+                </tr>
+                <tr>
+                	<td><label for="mail">e-mail</label></td>
+                    <td><input id="mail" type="email" /></td>
+                </tr>
+            </table>
+            <input type="submit" />
+        </fieldset>
+    </form>
+    <br><hr>
+    
+    <h1>Space Divide Tag(div;block, span;inline)</h1>
+    <div>Lorem ipsum</div>
+    <div>Lorem ipsum</div>
+    <div>Lorem ipsum</div>
+    <div>Lorem ipsum</div>
+    <div>Lorem ipsum</div>
+    <br>
+    <span>Lorem ipsum</span>
+    <span>Lorem ipsum</span>
+    <span>Lorem ipsum</span>
+    <span>Lorem ipsum</span>
+    <span>Lorem ipsum</span>
+    
+    </body>
+</html>
+
